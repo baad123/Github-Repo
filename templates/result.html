@@ -1,0 +1,41 @@
+<html>
+	<head>
+        	<title>Shippable Assignment</title>
+        	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    	</head>
+    <body>
+        <div id="container">
+            <div class="title">
+                <h1>Shipppable Assignment</h1>
+            </div>
+            <div id="content">
+            <table border="1" style="width:100%">
+              <tr>
+                <th>Description</th>
+                <th>Number of issues</th>      
+              </tr>
+              <tr>
+                <td>Total number of open issues </td>
+                <td>{{issuesOpen}}</td>      
+              </tr>
+              <tr>
+                <td>Number of issues opend within last 24 hours</td>
+                <td>{{within24}}</td>      
+              </tr>
+              <tr>
+                <td>Number of issues open in more than 24 hours but less than 7 days ago </td>
+                <td>{{within7}}</td>      
+              </tr>
+              <tr>
+                <td>Number of issues opened more than 7 days ago </td>
+                <td>{{after7}}</td>      
+              </tr>
+<<<<<<< HEAD
+            <h3><a href="https://still-tundra-8295.herokuapp.com">Go Back </a></h3>
+=======
+            <h3><a href="https://ancient-island-1057.herokuapp.com">Go Back </a></h3>
+>>>>>>> 14e25223a0b9c75955fbbfcf66473eeb22683093
+            </div>
+        </div>
+    </body>
+</html>
